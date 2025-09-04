@@ -1,0 +1,714 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bsgian nafbar */
+
+body{
+    background-color: rgb(172, 255, 255);
+    background-image: url(https://i.pinimg.com/474x/7c/8e/88/7c8e88031878ce988fb243ed1421a83b.jpg);
+    
+}
+
+.what{
+    width: 25px;
+    margin-left: 88%;
+    margin-top: 30px;
+    position: fixed;
+}
+.git{
+    width: 25px;
+    margin-left: 92%;
+    margin-top: 30px;
+    position: fixed;
+}
+.inst{
+    width: 25px;
+    margin-left: 96%;
+    margin-top: 30px;
+    position: fixed;
+}
+.skil h2{
+    font-family: "Goblin one", serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    position: fixed;
+    top: 3px;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+    
+
+}
+nav{
+    background-color: rgb(0, 158, 225);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+/* .skil{
+    background-color: rgb(79, 152, 255);
+    height: 40px;
+} */
+.skil li a:hover{
+    transition: all.3s ease-in-out;
+    color: rgb(0, 43, 104);
+}
+.skil ul{
+    list-style-type: none;
+    margin-top: 30px;
+    position: fixed;
+    left: 49%;
+
+    
+    
+}
+.skil ul li{
+    display: inline;
+    margin-right: 15px; 
+    
+}
+.skil ul li a{
+    font-family: "Hammersmith One", sans-serif;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+/* judul / kepala nya */
+
+.kepala h1{
+    font-family: "Judson", serif;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+
+}
+.kepala h3{
+    font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  color: rgb(255, 255, 255);
+  text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* ini deskripsi tentang saya */
+
+.deskripsi h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 46%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 5px  5px 1px rgba(255, 255, 255, 0.5);
+}
+.deskripsi p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    flex-wrap: wrap;
+}
+.deskripsi{
+    background-color:  rgb(0, 174, 255);
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px ;
+}
+
+/* yang ini untuk gambar nya */
+.deskripsi img{
+    width: 15%;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+/* ini CV nya */
+.download{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    margin-left: 85%;
+    margin-top: 35px;
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    border-style: solid;
+    border-color: rgb(0, 145, 255);
+    border-width: 3px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.download:hover{
+    background-color: rgb(0, 145, 255);
+}
+
+/* nah ini untuk skill skill nya */
+
+.my{
+    background-color: rgb(0, 174, 255);
+    margin-top: 20%;
+    justify-content: center;
+    height: 900px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    
+    
+}
+.my h1{
+    font-family: "Poltawski Nowy", serif;
+    font-weight: 2000;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: -7%;
+    text-shadow: 10px  7px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* pokok nya gambarnnya itu ngacak gk tau kode nya yang mana */
+/* sama teks teks nya ada di bagian ini */
+.my img{
+    width: 15%;
+    height: 23%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+}
+.au :hover{
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 600px) {
+    .my img,.p{
+      font-size: 14px;
+      padding: 10px;
+      flex-direction: column;
+      display: fl;
+    }
+  }
+.vscode{
+    
+    margin-left: 60px;
+   
+}
+.my img:hover {
+    transform: scale(1.1);
+}
+.Ai{
+    margin-right: 40px;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+.capcut{
+    margin-right: 40px;
+    margin-left: 6%;
+    
+    
+}
+.Pr{
+    margin-left: 79%;
+    margin-top: -900px;
+}
+.canva{
+    margin-right: 30px;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+.windows{
+    margin-right: 20%;
+    margin-left: 13%;
+    margin-top: -2%;
+}
+.gamer{
+    margin-right: 10%;
+    margin-left: 73%;
+    margin-top: -70%;
+    display: inline;
+}
+.vs{
+    margin-top: -80px;
+    margin-right:77%;
+    margin-left: 10px;
+    text-align: center;
+}
+.adob{
+    margin-left: 27%;
+    margin-top: -70px;
+    text-align: center;
+    margin-right: 52%;
+}
+.cap{
+    margin-left: 53%;
+    margin-top: -40px;
+    text-align: center;
+    margin-right: 29%;
+}
+.pp{
+    margin-left: 78%;
+    margin-right: 5%;
+    text-align: center;
+}
+.can{
+    margin-right: 65%;
+    margin-left: 40px;
+    text-align: center;
+}
+.soft{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    margin-top: -3%;
+    
+}
+.gm{
+    margin-left: 68%;
+    margin-right: 8%;
+    text-align: center;
+    margin-top: -80px;
+}
+
+/* nah ini project nya */
+/* sama gambarnya juga ada di sini */
+
+.project h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.project p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* gambar dan teks project 1 */
+
+.macam h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 30px; 
+    margin-top: 20%;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.ini{
+    width: 200px;
+    height:250px;
+    margin-left: 2%;
+    margin-top:    -39%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    
+}
+.gini{
+    height:200px;
+    height: 200px;
+    margin-left: 45%; 
+    margin-top: 8%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    
+  
+}
+.au{
+    background-color: rgb(34, 34, 91);
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -8%;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: rgb(0, 174, 255);
+    border-width: 5px;
+}
+.macam p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 60%;
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+/* gambar dan teks project 2 */
+
+.macam2 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 84%;
+    margin-top: 35%;
+    color: white;
+    text-shadow: -10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.macam2 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 40px;
+    margin-left: 60%;
+    text-align: right;
+    color: white;
+    text-shadow: -15px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.r{
+    background-color: rgb(34, 34, 91);
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: -13.5%;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: rgb(0, 174, 255);
+    border-width: 5px;
+}
+.r1{
+    width: 300px;
+    height:200px;
+    margin-left: 0.5%;
+
+    margin-bottom: -40%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+}
+.r2 {
+    width:270px;
+    height: 200px;
+    margin-left: 53%;
+    margin-top:6%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+}
+
+/* gambar dan teks project 3 */
+
+.macam3 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 60%;
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.macam3 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30%;
+    color: white;
+    text-shadow: 10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.r3{
+    background-color: rgb(34, 34, 91);
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -13.5%;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: rgb(0, 174, 255);
+    border-width: 5px;
+}
+.r4{
+    width: 200px;
+    height:200px;
+    margin-left: 2%;
+    margin-bottom: -40%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+}
+.r5{
+    width:300px;
+    height: 200px;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    
+}
+/* gambar dan teks project 4 */
+.macam4{
+    margin-bottom: 25%;
+}
+.macam4 h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 84%;
+    margin-top: 30%;
+    color: white;
+    text-shadow: -10px  7px 1px rgba(0, 0, 0, 0.5);
+}
+.macam4 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 40px;
+    margin-left: 60%;
+    text-align: left;
+    text-align: right;
+    color: white;
+    text-shadow: -15px  7px 1px rgba(0, 0, 0, 0.5);
+    
+}
+.r6{
+    background-color: rgb(34, 34, 91);
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: -13.5%;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: rgb(0, 174, 255);
+    border-width: 5px;
+}
+.r7{
+    width: 300px;
+    height:200px;
+    margin-left: 0.5%;
+    margin-bottom: -40%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+}
+.r8{
+    width:270px;
+    height: 200px;
+    margin-left: 53%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+}
+
+/* disini adalah kotak untuk memberikan saran */
+.saran{
+    background-color: rgb(0, 174, 255);
+    margin-top: 15%;
+    justify-content: center;
+    height: 500px;
+    border-style:solid;
+    border-radius: 40px;
+    border-width: 5px;
+    border-color: black;
+    width: 80%;
+    margin-left: 9%;
+}
+input[type="text"], select{
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    padding: 12px 30px;
+    margin: 12px 0;
+    border: 3px solid rgb(0, 145, 255);
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin-left: 4%;
+} 
+.nama{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 4%;
+    color: white;
+    text-shadow: 10px  6px 1px rgba(0, 0, 0, 0.5);
+}
+.email{
+    font-size: 20px;
+    margin-top: -8%;
+    margin-left: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-shadow: 10px  6px 1px rgba(0, 0, 0, 0.5);
+}
+.beri{
+    font-size: 20px;
+    margin-top: -8%;
+    margin-left: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-shadow: 10px  6px 1px rgba(0, 0, 0, 0.5);
+}
+
+.saran textarea{
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 13px 0;
+    border: 3px solid rgb(0, 145, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    margin-left: 44%;
+    background-color: rgb(138, 205, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: black;
+
+    
+}
+.btn:hover{
+    background-color: rgb(0, 174, 255);
+}
+
+/* nah disini adalah akun akun sosial media saya */
+.q1{
+    width: 40%;
+    margin-left: 52%;
+    margin-top: -40%;
+}
+
+.owh{
+    background-color: rgb(0, 145, 255);
+    height: 250px;
+    margin-top: 20%;
+}
+.c1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.x1{
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
+.x2{
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.x3{
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.c{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+@media screen and (max-width: 600px) {
+    .nav ul{
+        flex-direction: column;
+        
+    }
+    .nav ul li{
+        margin-bottom: 10px;
+    }
+    .nav ul li a{
+        font-size: 10px;
+    }
+    .web img{
+        flex-direction: column;  
+    }
+    .what, .git,.inst{
+        margin-bottom: 10px;
+        width: 13px;
+    }
+    .my p{
+        display: flex;
+        margin-bottom: 10px;
+        font-size: 10px;
+        width: 10px;
+    }
+    .my img{
+        width: 50px;
+        height: 40px;
+    }
+    .deskripsi p,.deskripsi h4{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .download{
+        font-size: 10px;
+    }
+    .macam img, .macam2 img, .macam3 img,.macam4 img{
+        width: 100px;
+        height: 80px;
+    }
+    .au,.r,.r3,.r6{
+    width: 300px;
+    height: 100px;
+    }
+    .macam p,.macam2 p,.macam3 p,.macam4 p,.macam h4,.macam2 h4,.macam3 h4,.macam4 h4{
+        font-size: 10px;
+    }
+}
